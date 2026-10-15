@@ -1,0 +1,8 @@
+var n: Int = 5
+
+for row in 1...n {
+    for _ in 1...row {
+        print("*", terminator: " ")
+    }
+    print()
+}
